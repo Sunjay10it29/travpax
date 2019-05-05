@@ -18,7 +18,7 @@ Start Server		`npm start`
 	- user session to keep login and save user detail in cookies
 
 #### Database
-	- account details are being saved into user table and database name trave in postgresql
+	- account details are being saved into user table and database name travel in postgresql
 
 #### purpose of development 
 	- Test challenge of Travel Pax full stack developer
