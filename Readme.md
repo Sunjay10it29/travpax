@@ -1,38 +1,33 @@
-#guideline on setup the travePax test challenge
+#### #Getting Start with travePax InsourceAsia test challenge
+#### #extract the zip file
 
+#### #Required tools and packages
 
+#### #Nodejs, postgresql 
 
-#extract the zip file
+install packages 	`npm install` 
+Start Server		`npm start`
 
-#required tools and packages
+#### paths: 
+	- localhost:3000/  	login page on root path
+	- localhost:3000/login	login page on login path
+	- localhost:3000/signup if user is not registered
+	- localhost:3000/index  main index page on login #if user is not logged in then user will be redirected to root path for login 
 
-#Nodejs, postgresql 
-
-#steps: 
- 	- npm install
-	- npm start
-
-#paths: 
-	- localhost:3000/  	#login page on root path
-	- localhost:3000/login	#login page on login path
-	- localhost:3000/signup #if user is not registered
-	- localhost:3000/index  #main index page on login #if user is not logged in then user will be redirected to root path for login 
-
-#Functionality 
+#### Functionality 
 	- user session to keep login and save user detail in cookies
 
-#Database
+#### Database
 	- account details are being saved into user table and database name trave in postgresql
 
-#purpose of development 
+#### purpose of development 
 	- Test challenge of Travel Pax full stack developer
 
 
+#### this project is not being used for any professional deployment except test challenge code assesment
 
+#### copyright@Sunjay Kumar 
 
-#this project is not being used for any professional deployment except test challenge code assesment
-
-#copyright@Sunjay Kumar 
 Sunjay Kumar
 Full Stack Developer
 Bangkok Thailand
